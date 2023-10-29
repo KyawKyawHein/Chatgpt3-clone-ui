@@ -1,0 +1,28 @@
+.feature-card{
+    width: 1000px;
+}
+.feature-left-side-title{
+    width: 350px;
+}
+.feature-right-text{
+    color: var(--color-text);
+}
+@media screen and (max-width:950px) {
+    .feature-container{
+        display: block !important;
+    }
+    .feature-card{
+        display: block !important;
+        padding: 5px !important;
+        width: 100% !important;
+    }
+    .feature-left-side-title,.feature-left-side p{
+        margin-bottom: 10px !important;
+        text-align:center;
+        width: 100% !important;
+    }
+    .feature-right-side div{
+        display: block !important;
+        text-align: center;
+    }
+}

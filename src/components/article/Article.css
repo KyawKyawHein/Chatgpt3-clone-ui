@@ -1,0 +1,36 @@
+.article-box{
+    width: 1000px;
+}
+.article-box-title{
+    margin-top: 80px;
+}
+.article-card img{
+    border-radius: 50px 0 0 0;
+}
+.article-card div{
+    background-color: var(--color-blog);
+}
+
+@media screen and (max-width:950px) {
+    .article-container{
+        display: block !important; 
+    }
+    .article-box{
+        width: 100% !important;
+    }
+    .article-box-title{
+        text-align: center;
+        margin-top: 20px !important;
+        margin-bottom: 10px;
+    }
+    .article-card-container{
+        display: block !important;
+    }
+    .article-card{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .article-card img{
+        border-radius: 0;
+    }
+}

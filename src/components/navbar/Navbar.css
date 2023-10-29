@@ -1,0 +1,46 @@
+.gpt3_navbar_btn{
+    display: none;
+}
+.gpt3_navbar-menu_container{
+    display: none;
+    color: white;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:850px) {
+    .gpt3_navbar-links-container{
+        display: none !important;
+    }
+    .gpt3_navbar-links{
+        padding: 10px !important;
+    }
+    .gpt3_navbar_btn{
+        display:block;
+    }
+    .gpt3_navbar-menu_container{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: -2px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .gpt3_navbar-links-container{
+        display: none !important;
+    }
+    .gpt3_navbar_sign{
+        display: none !important;
+    }
+    .gpt3_navbar_btn{
+        display:block;
+    }
+    .gpt3_navbar-menu_container{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: -10px;
+    }
+}

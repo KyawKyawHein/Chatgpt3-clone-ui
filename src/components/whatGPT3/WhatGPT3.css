@@ -1,0 +1,48 @@
+.gradient-bar{
+    background: var(--gradient-bar);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    /* width: 20px;
+    height: 20px;
+    padding: 20px; */
+}
+.whatgpt3-card{
+    width: 1000px;
+    background:  rgba(4, 44, 84, 1);
+}
+.card-description{
+    color: var(--color-text);
+}
+@media screen and (max-width:1100px) {
+    
+}
+@media screen and (max-width:950px) {
+    .whatgpt3-container{
+        display: block !important;
+        width: 100% !important;
+    }
+    .whatgpt3-card{
+        width: 100% !important;
+    }
+    .whatgpt3-card-header{
+        display: block !important;
+    }
+    .whatgpt3-card-header h2{
+        margin-bottom: 5px;
+    }
+    .whatgpt3-card-title{
+        display: block !important;
+    }
+    .whatgpt3-card-title h2{
+        margin-bottom: 10px !important;
+    }
+    .whatgpt3-card-footer{
+        display: block !important;
+    }
+    .whatgpt3-card-footer div{
+        margin-bottom: 20px !important;
+    }
+    .whatgpt3-card-footer div p{
+        margin-top: 5px !important;
+    }
+}

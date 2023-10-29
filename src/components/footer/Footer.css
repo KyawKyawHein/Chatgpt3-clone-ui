@@ -1,0 +1,35 @@
+.footer-title{
+    margin-top: 70px;
+}
+.footer-link-container{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:950px) {
+    .footer-container{
+        width: 100% !important;
+    }
+    .footer-title{
+        margin-top: 10px;
+    }
+    .footer-link-container{
+        display: block !important;
+    }
+    .footer-link-title{
+        text-align: center;
+    }
+    .footer-link-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px !important;
+        margin-top: 20px;
+    }
+    .footer-link{
+        padding: 10px;
+    }
+    .footer-link p{
+        margin-bottom: 5px !important;
+    }
+}
