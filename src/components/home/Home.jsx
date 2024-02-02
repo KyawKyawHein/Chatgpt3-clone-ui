@@ -5,10 +5,10 @@ import "./Home.css"
 const Home = () => {
   return (
     <>
-       <div id='home' className="header-container  h-screen flex flex-col items-center justify-center">
+       <div id='home' className="header-container  min-h-screen flex flex-col items-center justify-center">
           <div className="header-main flex items-center justify-center">
             <div className="header-left-side">
-              <h1 className='header-title gradient-text text-5xl font-bold'>Let's Build Something<br />amazing with GPT-3<br/>OpenAI</h1>
+              <h1 className='header-title mt-10 md:mt-0 gradient-text text-5xl font-bold'>Let's Build Something<br />amazing with GPT-3<br/>OpenAI</h1>
               <p className='header-description my-7'>Yet bed any for travelling assistance indulgence unpleasing.<br/>Not thoughts all exercise blessing. Indulgence way<br/>everything joy alteration boisterous the attachment. Party<br/>we years to order allow asked of.</p>
               <div className="header-input">
                   <input type="text" className='p-2 outline-none' placeholder='Your Email Address' name='headerInput' />
